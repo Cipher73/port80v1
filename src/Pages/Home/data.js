@@ -5,9 +5,9 @@
     lightText: true,
     lightTextDesc: true,
     topLine: 'Angela Nkosi',
-    headline: 'Computer Science student at the university of the Witwaterstrand',
+    headline: 'Student at the University of the Witwatersrand studying computer science, An avid chess player',
     description:
-      "welcome to my portfolio where i showcase my skills and projects",
+      "Here you will find a collection of my skills and projects displayed on my portfolio",
       description2:
       "chess lover",
     buttonLabel: 'Download CV',

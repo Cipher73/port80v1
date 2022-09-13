@@ -6,8 +6,8 @@ import LanguageSec from '../../Components/LanguageSec'
 import Contact from '../../Components/Contact'
 import './home.css'
 import Portfolio from  '../../Components/Portfolio/Portfolio'
-import Socials from '../../Components/Socials';
 import { Homedata } from './data';
+import BottomFooter from '../../Components/BottomFooter'
 const Home = () => {
 
     const [isOpen,setIsOpen] = useState(false)
@@ -24,8 +24,8 @@ const Home = () => {
     <HeroSection {...Homedata} />
     <LanguageSec/>
     <Portfolio/>
-     <Socials/>
     <Contact/>
+    <BottomFooter/>
     </>
   )
 }

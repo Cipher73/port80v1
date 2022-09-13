@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 
+
+
+
+
 export const InfoSec = styled.div`
+
   color: #fff;
   padding: 160px 0;
   background: ${({ lightBg }) => (lightBg ? '#fff' : '#101522')};
@@ -35,17 +40,16 @@ export const InfoColumn = styled.div`
 
 
 export const TextWrapper = styled.div`
+  
+  
 
-  max-width: 550px;
+  max-width: 900px;
   margin-top: 10px;
   margin-bottom: 60px;
-
 
   @media screen and (max-width: 768px) {
     margin-bottom: 75px;
     margin-top: 60px;
-
-  
 
   }
 `;
@@ -54,25 +58,15 @@ export const ImgWrapper = styled.div`
 
   max-width: 555px;
   display: flex;
-  justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
-
+  margin-right: 60px;
+  justify-content: ${({ start }) => (start ? 'flex-end' : 'flex-start')};
 
   @media screen and (max-width: 768px) {
     display:none;
   }
 `;
 
-export const TopLine = styled.div`
-  color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#4B59F7')};
-  font-size: 25px;
-  line-height: 16px;
-  font-weight: 700;
-  letter-spacing: 1.4px;
-  margin-bottom: 16px;
 
-
-
-`;
 
 export const Img = styled.img`
   padding-right: 0;
@@ -81,36 +75,44 @@ export const Img = styled.img`
   vertical-align: middle;
   display: inline-block;
   max-height: 200px;
-
- 
 `;
 
 export const Heading = styled.h1`
+font-family: 'Sora', sans-serif;
   margin-bottom: 24px;
-  font-size: 48px;
+  margin-top: 50px;
+  font-size: 45px;
   line-height: 1.1;
-  font-weight: 500;
+  font-weight: 400;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1c2237')};
   @media screen and (max-width: 768px) {
     font-size: 40px;
   }
-  @media screen and (max-width: 440px) {
+  @media screen and (max-width: 700px) {
     margin-bottom:20px;
     line-height: 1;
+    font-size: 35px;
+  }
+  @media screen and (max-width: 490px) {
+    margin-bottom:20px;
+    line-height: 1;
+    font-size: 30px;
   }
 `;
 
 export const Subtitle = styled.p`
+font-family: 'Sora', sans-serif;
   max-width: 440px;
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
   color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
 
-  @media screen and (max-width: 440px) {
+  @media screen and (max-width: 490px) {
     margin-top:40px;
     margin-bottom:60px;
     line-height: 1;
+    font-size: 12px;
   }
 `;
 
@@ -124,7 +126,7 @@ export const HeroBg = styled.div`
   height: 100%;
   overflow: hidden;
 `
-export const VideoBg =styled.video`
+export const HomeImg =styled.img`
   width: 100%;
   height: 100%;
   -o-object-fit: cover;

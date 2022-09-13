@@ -1,16 +1,15 @@
 import React from 'react'
-import Video from '../../Videos/video1.mp4'
+import home from '../../Backgrounds/home.png'
 
 import {
   InfoRow,
   InfoColumn,
   TextWrapper,
-  TopLine,
   Heading,
   Subtitle,
   ImgWrapper,
   Img,
-  VideoBg,HeroBg,HeroContainer,HeroContent
+  HeroBg,HeroContainer,HeroContent, HomeImg
 } from './hero';
 function HeroSection({
   topLine,
@@ -30,16 +29,15 @@ function HeroSection({
   
     <HeroContainer className='home'>
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type = 'video/mp4' />
+        <HomeImg src={home} />
       </HeroBg>
       <HeroContent>
       <InfoRow imgStart={imgStart}>
             <InfoColumn>
               <TextWrapper>
-                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Subtitle lightTextDesc={lightTextDesc}>{description2}</Subtitle>
+          
           
               </TextWrapper>
             </InfoColumn>

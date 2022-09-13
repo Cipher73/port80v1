@@ -42,7 +42,8 @@ const Navbar = ({toggle}) => {
                     spy={true}
                     smooth={true} 
                     duration={500}
-                    offset={-50} 
+                    offset={-70} 
+                    
                     >Portfolio</NavLinks>
                     </NavItem>
                     <NavItem>

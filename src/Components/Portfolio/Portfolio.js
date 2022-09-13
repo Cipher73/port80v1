@@ -1,10 +1,13 @@
 import React from "react";
 import "./Portfolio.css";
-import gif1 from '../../Videos/gif1.mp4'
-import gif3 from '../../Videos/gif3.mp4'
-import gif4 from '../../Videos/gif4.mp4'
+import card1 from '../../Backgrounds/card1.png'
+import card2 from '../../Backgrounds/card2.png'
+import card3 from '../../Backgrounds/card3.png'
+import card4 from '../../Backgrounds/card4.png'
+import card5 from '../../Backgrounds/card5.png'
 
 const Portfolio = () => {
+  
   return (
     <div className="portfolio">
        <h1 className="port-heading">My<span >Projects</span> </h1>
@@ -12,14 +15,14 @@ const Portfolio = () => {
       <div className="card">
           <div className="card-media">
             <div className="PortfolioCard">
-            <div className="vid-div">
-              <video className="vid" autoPlay muted loop >
-               <source src={gif1} type="video/mp4"/></video></div>
+            <div className="card-img">
+              <img className="img" src={card5} />
+               </div>
               <p className="card__name">DFMPC-Student-Placement-System</p>
               <div className="grid-container">
                 
 
-                <div className="short-description"> A student app which integrates with the student Placement System. The app will need to accomodate any student needs and any relevant information on the system needs to be presented to students via app.</div>
+                <div className="short-description">This is a student app that integrates with the student placement system in order to offer a seamless experience.</div>
               
               </div>
             </div>
@@ -33,10 +36,10 @@ const Portfolio = () => {
             </header>
             <div className="long-description">
             <p>
-                Tools used : React Native, Javascript , firebase.
+              Used tools: React Native, Javascript, Firebase.
               </p>
               <p>
-                Authors: Riot Ndlovu, Angela Nkosi, Callum Muller, Shagan Plaatjies, Nokuthaba Moyo,.
+              The authors are Riot Ndlovu, Angela Nkosi, Callum Muller, Shagan Plaatjies, and Nokuthaba Moyo.
               </p>
             </div>
             <footer className="footer">
@@ -61,9 +64,9 @@ const Portfolio = () => {
         <div className="card">
           <div className="card-media">
             <div className="PortfolioCard">
-              <div className="vid-div">
-              <video className="vid" autoPlay muted loop >
-               <source src={gif4} type="video/mp4"/></video></div>
+            <div className="card-img">
+              <img className="img" src={card2} />
+               </div>
               <p className="card__name">FACK</p>
               <div className="grid-container">
               
@@ -79,10 +82,10 @@ const Portfolio = () => {
             </header>
             <div className="long-description">
               <p>
-                languages used : Java.
+                Used tools: Java.
               </p>
               <p>
-                Authors: Angela Nkosi , Callum Muller.
+              The authors are Angela Nkosi , Callum Muller.
               </p>
             </div>
             <footer className="footer">
@@ -108,13 +111,13 @@ const Portfolio = () => {
         <div className="card">
           <div className="card-media">
             <div className="PortfolioCard">
-            <div className="vid-div">
-              <video className="vid" autoPlay muted loop >
-               <source src={gif1} type="video/mp4"/></video></div>
+            <div className="card-img">
+              <img className="img" src={card3} />
+               </div>
               <p className="card__name">Diverge</p>
               <div className="grid-container">
          
-                <div className="short-description"> Food delevery app , user friendly interface</div>
+                <div className="short-description">App for food delivery with a user-friendly interface.</div>
               </div>
             </div>
           </div>
@@ -128,10 +131,10 @@ const Portfolio = () => {
             </header>
             <div className="long-description">
             <p>
-                Tools used : Java , Android Studio , firebase.
+                Used tools: Java , Android Studio , Firebase.
               </p>
               <p>
-                Authors: Angela Nkosi.
+               Author: Angela Nkosi.
               </p>
             </div>
             <footer className="footer">
@@ -156,13 +159,13 @@ const Portfolio = () => {
         <div className="card">
           <div className="card-media">
             <div className="PortfolioCard">
-            <div className="vid-div">
-              <video className="vid" autoPlay muted loop >
-               <source src={gif3} type="video/mp4"/></video></div>
+            <div className="card-img">
+              <img className="img" src={card4} />
+               </div>
               <p className="card__name">Emergency Hotline</p>
               <div className="grid-container">
               
-                <div className="short-description">Emergency Hotline app , it allows users to send their location during an emergency. It provides a range of medical assists</div>
+                <div className="short-description">In an emergency, users of the Emergency Hotline app can send their location. Several medical aids are provided.</div>
             
               </div>
             </div>
@@ -176,7 +179,7 @@ const Portfolio = () => {
             </header>
             <div className="long-description">
               <p>
-                Tools used : Java , Android Studio , firebase.
+                Used tools: Java , Android Studio , Firebase.
               </p>
               <p>
                 Authors: Angela Nkosi.
